@@ -22,7 +22,7 @@ loop do
   cart[name] = { price: price, quantity: quantity }
   total_sum += price * quantity # Обновление общей суммы
 end
-
+#
 # Вывод результатов
 puts "Корзина:"
 cart.each do |item_name, details|
